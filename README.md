@@ -23,20 +23,20 @@ Below we provide a few real-world examples of how to compose DeSo core into your
 
 The code that powers DeSo apps like [bitclout.com](https://bitclout.com) is fully open-source
 such that anyone in the world can run it, and it consists of three repositories:
-* **[github.com/deso-protocol/backend](https://github.com/deso-protocol/backend)**
-* **[github.com/deso-protocol/frontend](https://github.com/deso-protocol/frontend)**
-* **[github.com/deso-protocol/identity](https://github.com/deso-protocol/identity)**
+* **[github.com/accuwings/backend](https://github.com/accuwings/backend)**
+* **[github.com/accuwings/frontend](https://github.com/accuwings/frontend)**
+* **[github.com/accuwings/identity](https://github.com/accuwings/identity)**
 
 The repo that is most interesting for understanding the role of DeSo core is
-[backend](https://github.com/deso-protocol/backend) because it effectively includes core
+[backend](https://github.com/accuwings/backend) because it effectively includes core
 as a library to run a node. Then, it builds on core's basic functionality to expose
 [a rich API](https://docs.deso.org/devs/backend-api) of its own that can be used to 
 construct transactions, submit transactions to the network, manage user data, and 
 much more.
 
 The backend repo's API is then utilized by
-[frontend](https://github.com/deso-protocol/frontend) and 
-[identity](https://github.com/deso-protocol/identity), which are Angular apps that are
+[frontend](https://github.com/accuwings/frontend) and 
+[identity](https://github.com/accuwings/identity), which are Angular apps that are
 served as the frontend to apps like [bitclout.com](https://bitclout.com).
 
 ## Example 2: A Rosetta API for Exchange Listing
@@ -53,12 +53,12 @@ self-contained service. This allows exchanges to integrate DeSo without having
 to run the unnecessary services associated with serving bitclout.com.
 
 For more information on the DeSo Rosetta API, see our rosetta-deso repo here:
-* **[https://github.com/deso-protocol/rosetta-deso](https://github.com/deso-protocol/rosetta-deso)**
+* **[https://github.com/accuwings/rosetta-deso](https://github.com/accuwings/rosetta-deso)**
 
 ## Example 3: A MongoDB Data Dumper
 
 Another example of composing the core repo is the DeSo MongoDB Dumper.
-* **[github.com/deso-protocol/mongodb-dumper](https://github.com/deso-protocol/mongodb-dumper)**
+* **[github.com/accuwings/mongodb-dumper](https://github.com/accuwings/mongodb-dumper)**
 
 This tool does the following:
 * It includes core as a library
@@ -71,12 +71,12 @@ commandline tool, or to layer a product like Retool on top of it.
 # Running DeSo Core
 
 Because core is intended to be composed into other projects, we suggest that
-users who want to run it start by reading [the README in the backend repo](https://github.com/deso-protocol/backend)
+users who want to run it start by reading [the README in the backend repo](https://github.com/accuwings/backend)
 mentioned previously. This repo provides instructions on how set up a dev environment
 for a full frontend and backend stack that can serve a full clone 
 of apps like [bitclout.com](https://bitclout.com) with one's own custom feed.
 
-We also provide a [run repo](https://github.com/deso-protocol/run) that shows how to 
+We also provide a [run repo](https://github.com/accuwings/run) that shows how to 
 run this full stack in a fully Dockerized production environment.
 
 # Acknowledgements

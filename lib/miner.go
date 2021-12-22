@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/deso-protocol/core/desohash"
+	"github.com/accuwings/core/desohash"
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/davecgh/go-spew/spew"
-	merkletree "github.com/deso-protocol/go-merkle-tree"
+	merkletree "github.com/accuwings/go-merkle-tree"
 	"github.com/golang/glog"
 	"github.com/pkg/errors"
 )

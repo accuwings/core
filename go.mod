@@ -1,4 +1,4 @@
-module github.com/deso-protocol/core
+module github.com/accuwings/core
 
 go 1.14
 
@@ -11,8 +11,8 @@ require (
 	github.com/bxcodec/faker v2.0.1+incompatible
 	github.com/davecgh/go-spew v1.1.1
 	github.com/decred/dcrd/lru v1.0.0
-	github.com/deso-protocol/go-deadlock v1.0.0
-	github.com/deso-protocol/go-merkle-tree v1.0.0
+	github.com/accuwings/go-deadlock v1.0.0
+	github.com/accuwings/go-merkle-tree v1.0.0
 	github.com/dgraph-io/badger/v3 v3.2103.0
 	github.com/dgraph-io/ristretto v0.1.0 // indirect
 	github.com/ethereum/go-ethereum v1.9.25

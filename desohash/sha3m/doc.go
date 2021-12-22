@@ -34,4 +34,4 @@
 // They produce output of the same length, with the same security strengths
 // against all attacks. This means, in particular, that SHA3-256 only has
 // 128-bit collision resistance, because its output length is 32 bytes.
-package sha3m // import "github.com/deso-protocol/lib/sha3m"
+package sha3m // import "github.com/accuwings/lib/sha3m"

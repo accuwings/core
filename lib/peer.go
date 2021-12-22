@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/deso-protocol/go-deadlock"
+	"github.com/accuwings/go-deadlock"
 	"github.com/golang/glog"
 	"github.com/pkg/errors"
 )

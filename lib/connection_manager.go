@@ -11,7 +11,7 @@ import (
 	chainlib "github.com/btcsuite/btcd/blockchain"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/decred/dcrd/lru"
-	"github.com/deso-protocol/go-deadlock"
+	"github.com/accuwings/go-deadlock"
 	"github.com/golang/glog"
 	"github.com/pkg/errors"
 )
